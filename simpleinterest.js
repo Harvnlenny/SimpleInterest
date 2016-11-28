@@ -7,6 +7,7 @@ $(function() {
  }
  var interest = Number(prompt("Enter the rate of interest."));
 
+
  if (isNaN(interest)) {
     parseInt(prompt("You did not enter a number. Please enter the rate of interest as a number."))
  }
