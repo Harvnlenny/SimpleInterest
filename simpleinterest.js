@@ -2,7 +2,6 @@ $(function() {
 
  var principle = Number(prompt("Enter the principle."));
 
-
  if (isNaN(principle)) {
     parseInt(prompt("You did not enter a number. Please enter the principle as a number."))
  }
